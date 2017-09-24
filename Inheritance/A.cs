@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Program
+    class A
     {
-        static void Main(string[] args)
+        public int a = 1;
+        public void Show_a()
         {
+            Console.WriteLine($"\n The value of a is {a}\n");
         }
     }
 }
